@@ -1,0 +1,161 @@
+/*
+## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+*/
+
+/* ----------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+
+    
+}
+
+/* ----------------------------------------- */
+/* MAIN */
+/* ----------------------------------------- */
+
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .8rem;
+}
+
+h1,
+h2,
+h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+p {
+    line-height: 1.8rem;
+}
+
+/* ----------------------------------------- */
+/* INTRO */
+/* ----------------------------------------- */
+
+.intro {
+    max-width: 75%
+    margin-bottom: 5em;
+    text-align: center;
+    
+}
+
+/* ----------------------------------------- */
+/* CARDS */
+/* ----------------------------------------- */
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: .5em;
+    padding: 2.2em;
+    width: 25em;
+    margin: 2em auto;
+    box-shadow: 0px 5px 15px 7px hsla(212, 51%, 71%, 0.2);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card--supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card--team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card--karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card--calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.card__icon {
+    margin-top: 2em;
+    align-self: flex-end;
+}
+
+/* ----------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------- */
+
+footer {
+    margin-top: 5em;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer p {
+    line-height: 160%;
+}
+
+footer a {
+    text-decoration: none;
+    background: linear-gradient(45deg, hsl(180, 62%, 55%), hsl(212, 86%, 64%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer a:hover,
+footer a:active  {
+    background: linear-gradient(45deg, hsl(0, 78%, 62%), hsl(34, 97%, 64%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ----------------------------------------- */
+/* MEDIA QUERIES */
+/* ----------------------------------------- */
+
