@@ -1,7 +1,7 @@
 # Frontend Mentor - Four card feature section
 
 ### Live App: https://fm-four-card-feature-section.now.sh/
-### Solution submission on Frontend Mentor: https://www.frontendmentor.io/solutions/single-price-grid-component-using-flexbox-e2U1Oo0f1
+### Solution submission on Frontend Mentor: https://www.frontendmentor.io/solutions/responsive-four-card-feature-using-css-flexbox-and-grid-CnY8nVl17
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
